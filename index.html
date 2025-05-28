@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acaya – Climate & Deep Tech in Logistics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #eaf6fd;
+      color: #1f2937;
+    }
+    header {
+      background-color: #d1ecff;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #4b5563;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .product-box, .story-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      padding: 12px;
+      background: #007acc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #d1ecff;
+      color: #555;
+    }
+    @media(max-width: 768px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Acaya</h1>
+    <p>Reimagining Clean & Intelligent Logistics for a Cooler Planet</p>
+  </header>
+
+  <section class="section">
+    <h2>Why Now?</h2>
+    <div class="story-box">
+      <p>The climate crisis is not coming — it's here. Logistics accounts for nearly 10% of global emissions. Acaya's mission is to revolutionize how perishables move — silently, intelligently, and sustainably. Our smart thermal packaging doesn't just save energy; it saves futures.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Featured Innovations</h2>
+    <div class="grid">
+      <div class="product-box">
+        <h3>Acaya Hot Box</h3>
+        <p>Maintains food above 68°C using PCM + active coils. Built for urban deliveries, military, and beyond.</p>
+      </div>
+      <div class="product-box">
+        <h3>Acaya Cold Chain Tej</h3>
+        <p>Keeps contents at 2–8°C for 72+ hours without a compressor. Ideal for pharma, florals, and dairy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Deep Tech Meets Clean Tech</h2>
+    <div class="story-box">
+      <p>Acaya’s IoT-enabled devices log temperature, GPS, and battery health in real time. Paired with AI for predictive rerouting and PCM optimization, we deliver not just goods, but confidence. All while eliminating diesel, foam, and food waste.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>About Us</h2>
+    <div class="story-box">
+      <p>Founded by innovators from food, pharma, and engineering backgrounds, Acaya was born from a shared dream: to use climate tech to solve everyday logistical challenges — from a mother sending food to her child, to a hospital shipping insulin across deserts.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <form action="mailto:invest@acaya.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your Name" required />
+      <input type="email" name="Email" placeholder="Your Email" required />
+      <textarea name="Message" rows="5" placeholder="Tell us what you’re looking for..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Acaya Packaging Tech Pvt Ltd. All rights reserved.
+  </footer>
+</body>
+</html>
